@@ -1,0 +1,7 @@
+Segment_Name,Risk_Tier,Records,Default_Rate_pct,Mean_Net_Profit_INR,Median_Outstanding_INR
+Debt-free Investors,Debt_to_Income_Ratio <= 0.733,136,5.1,2675.8,987152.6
+Leveraged Investors,Debt_to_Income_Ratio <= 0.733,115,5.2,2615.0,3520475.2
+Leveraged Investors,Debt_to_Income_Ratio > 0.733,490,49.0,2927.5,6455073.7
+Pure Borrowers,Debt_to_Income_Ratio <= 0.733,160,7.5,2983.6,4320692.3
+Pure Borrowers,Debt_to_Income_Ratio > 0.733,675,47.0,3260.5,6279578.2
+Transactional-only,Debt_to_Income_Ratio <= 0.733,196,1.0,3707.6,996985.9

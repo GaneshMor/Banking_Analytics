@@ -1,0 +1,8 @@
+,Credit_Burden,Investment_Depth,Communality
+Outstanding_Loan_INR,0.949,0.02,0.901
+EMI_Amount_INR,0.929,0.015,0.864
+Interest_Rate_Percent,0.838,-0.001,0.702
+Debt_to_Income_Ratio,0.938,0.021,0.88
+log_Investment_Value_INR,-0.029,0.943,0.891
+Portfolio_Return_Percent,-0.055,0.664,0.445
+Portfolio_Risk_Score,-0.023,0.921,0.848

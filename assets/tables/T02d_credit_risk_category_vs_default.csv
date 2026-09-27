@@ -1,0 +1,5 @@
+Credit_Risk_Category,No,Yes,Default_Probability range
+Low,100.0,0.0,0.010-0.150
+Medium,100.0,0.0,0.150-0.350
+High,54.9,45.1,0.350-0.600
+Very High,0.0,100.0,0.601-0.726

@@ -1,0 +1,12 @@
+Metric,Value
+Rows,3000
+Columns,62
+Numerical variables,34
+Categorical variables,25
+Date variables,1
+ID variables,2
+Unique Transaction_IDs,3000
+Unique Customer_IDs,958
+Exact duplicate rows,0
+Cells missing,1222
+Date range,01-Jan-2024 to 01-Sep-2026

@@ -1,0 +1,12 @@
+Attribute,% of repeated Customer_IDs with >1 distinct value
+Age,99.7
+Gender,77.2
+Occupation,94.9
+Annual_Income_INR,100.0
+Credit_Score,99.9
+Customer_Tenure_Months,99.7
+State,96.5
+City,97.1
+Bank_Name,96.5
+Customer_Segment,84.0
+Primary_Account_Type,85.9

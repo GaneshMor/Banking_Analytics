@@ -1,0 +1,33 @@
+,Gini importance,Permutation importance (AUC drop),Permutation SD
+Debt_to_Income_Ratio,0.3857,0.2262,0.0161
+Credit_Utilization_Ratio,0.1028,0.0569,0.0071
+Credit_Score,0.0793,0.045,0.0064
+EMI_Amount_INR,0.1585,0.0054,0.0033
+Age,0.0141,0.001,0.0006
+Average_Monthly_Spend_INR,0.0176,0.0009,0.0006
+Annual_Income_INR,0.0199,0.0009,0.0013
+Transactions_Last_30_Days,0.0087,0.0006,0.0003
+Prim_Business,0.0022,0.0006,0.0005
+Account_Balance_Before_INR,0.0162,0.0003,0.0007
+Interest_Rate_Percent,0.0504,0.0003,0.001
+Days_Since_Last_Transaction,0.013,0.0003,0.0004
+Prim_Salary,0.001,0.0002,0.0001
+Cust_Mass Affluent,0.0009,0.0002,0.0002
+Occu_Retired,0.0008,0.0001,0.0001
+Credit_Limit_INR,0.015,0.0001,0.0006
+Outstanding_Loan_INR,0.0842,0.0001,0.0019
+Loan_Vehicle Loan,0.0006,0.0001,0.0001
+Prim_NRI,0.0003,0.0,0.0
+Occu_Professional,0.0011,-0.0,0.0001
+Cust_HNI,0.0002,-0.0,0.0
+Occu_Self-Employed,0.0008,-0.0,0.0001
+Prim_Current,0.0003,-0.0,0.0001
+Cust_SME,0.0011,-0.0001,0.0001
+Cust_Corporate,0.0005,-0.0001,0.0001
+Occu_Business Owner,0.0007,-0.0001,0.0001
+Loan_Education Loan,0.0015,-0.0001,0.0002
+Loan_Personal Loan,0.0015,-0.0002,0.0001
+Occu_Student,0.0008,-0.0002,0.0001
+Loan_Business Loan,0.001,-0.0002,0.0002
+Loan_Home Loan,0.0036,-0.0003,0.0003
+Customer_Tenure_Months,0.0156,-0.0012,0.0005

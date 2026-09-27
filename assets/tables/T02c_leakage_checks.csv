@@ -1,0 +1,8 @@
+Check,Result
+ROC-AUC of Default_Probability alone for Target_Default,1.0
+Max Default_Probability among non-defaulters,0.45
+Min Default_Probability among defaulters,0.45
+"Corr(Profitability_Score, Net_Profit_INR)",0.811
+"Corr(Revenue_Generated_INR, Net_Profit_INR)",0.882
+"Corr(Cost_to_Serve_INR, Net_Profit_INR)",-0.485
+Target_Churn distinct classes,1.0

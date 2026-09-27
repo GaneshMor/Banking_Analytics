@@ -1,0 +1,5 @@
+Segment_Name,Records,Mean_Net_Profit_INR,Total_Net_Profit_INR,Loss_Making_pct,Default_Rate_pct,Mean_RF_Risk_Score,Digital_Score,Median_Income_INR,Credit_Score,DTI,Median_Investment_INR,Median_CLV_INR,Total_Outstanding_Loan_Cr,Share_of_Records_pct,Share_of_Profit_pct,Share_of_Defaults_pct
+Transactional-only,890,3417.63,3041694.82,27.3,1.12,0.02,68.16,871989.0,721.7,0.21,0.0,1039962.16,26.31,29.67,31.86,1.69
+Debt-free Investors,670,3122.52,2092085.76,29.1,1.19,0.02,67.54,919137.5,721.22,0.2,2613337.14,1116433.68,18.52,22.33,21.91,1.35
+Pure Borrowers,835,3207.44,2678214.62,28.26,39.4,0.5,68.53,803339.0,716.75,0.86,0.0,920749.4,486.5,27.83,28.05,55.48
+Leveraged Investors,605,2868.13,1735217.19,32.89,40.66,0.5,67.52,787365.0,726.77,0.87,2668188.61,983398.78,351.48,20.17,18.18,41.48

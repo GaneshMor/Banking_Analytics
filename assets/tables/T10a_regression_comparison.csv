@@ -1,0 +1,5 @@
+Model,Train R2,Test R2,Test Adj. R2,Test RMSE (INR),Test MAE (INR),Non-zero coefficients
+Linear Regression (OLS),0.0144,-0.0001,-0.0346,4872.0826,4083.1906,25
+Ridge,0.0069,0.0026,-0.0318,4865.327,4086.4289,25
+Lasso,0.0098,0.0067,-0.0276,4855.3933,4077.3095,7
+Naive baseline (predict train mean),0.0,-0.0002,,4872.1214,4095.4071,0

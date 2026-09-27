@@ -1,0 +1,10 @@
+Variable,Chi2,p_value,Default rate range across levels,Significant_5%
+Loan_Product,483.49,2.9245709082545997e-102,0.6% - 34.7%,Yes
+Primary_Account_Type,10.43,0.03381987615506759,11.3% - 21.9%,Yes
+Customer_Segment,2.56,0.6340816733426415,17.3% - 22.3%,No
+Occupation,8.79,0.11794925078339454,17.1% - 22.9%,No
+Gender,1.92,0.3822776776090813,15.6% - 20.7%,No
+Has_Credit_Card,1.07,0.30085105839469917,19.2% - 20.8%,No
+Has_Investment_Product,0.01,0.9092169138229629,19.6% - 19.9%,No
+Has_Insurance,1.25,0.2631940282154096,18.8% - 20.5%,No
+Internet_Banking_Usage,0.2,0.9032336177858502,19.4% - 20.4%,No

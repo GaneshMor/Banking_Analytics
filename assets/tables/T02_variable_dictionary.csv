@@ -1,0 +1,63 @@
+Variable,Data Type,Business Meaning,Missing Values,Role,Modelling Treatment
+Transaction_ID,object,Unique transaction reference,0,ID,Excluded from analysis
+Customer_ID,object,Customer reference; NOT consistent across rows (see 1.3),0,ID / grouping,Used only as grouping key for train/test split
+Transaction_Date,object,Date-time of transaction,0,Date,Converted to datetime; year/month derived for EDA only
+Bank_Name,object,Bank on which record is based,0,Categorical,EDA only
+State,object,Customer state,0,Categorical,EDA only (State-City pairs are internally inconsistent)
+City,object,Customer city,0,Categorical,EDA only
+Customer_Segment,object,Bank's own segment label (Retail/Mass Affluent/SME/HNI/Corporate),0,Categorical predictor,One-hot (drop first)
+Age,int64,"Customer age, years",0,Numeric predictor,Used as is
+Gender,object,Customer gender,0,Categorical,EDA; excluded from credit models (fair-lending)
+Occupation,object,Occupation group,0,Categorical predictor,One-hot (drop first)
+Annual_Income_INR,int64,"Annual income, INR",0,Numeric predictor,log1p transform (skew 2.3)
+Credit_Score,int64,Bureau-type credit score,0,Numeric predictor,Used as is
+Customer_Tenure_Months,int64,Months with the bank,0,Numeric predictor,Used as is
+Primary_Account_Type,object,Main account type,0,Categorical predictor,One-hot (drop first)
+Loan_Product,object,Loan held; missing = no loan (EMI and rate are 0),1222,Categorical predictor,Missing recoded to 'No Loan'; one-hot
+Has_Credit_Card,object,Holds a credit card,0,Binary predictor,Yes=1/No=0
+Has_Investment_Product,object,Holds an investment product,0,Binary predictor,Yes=1/No=0
+Has_Insurance,object,Holds insurance,0,Binary predictor,Yes=1/No=0
+Transaction_Type,object,Type of this transaction,0,Categorical (transaction),EDA only
+Transaction_Channel,object,Channel of this transaction,0,Categorical (transaction),Redundant: fully determined by Transaction_Type; EDA only
+Transaction_Category,object,Merchant/spend category,0,Categorical (transaction),EDA only
+Transaction_Amount_INR,float64,"Amount of this transaction, INR",0,Numeric,log1p for FA; EDA
+Debit_Credit,object,Direction of transaction,0,Categorical (transaction),EDA only
+Account_Balance_Before_INR,float64,Balance before this transaction,0,Numeric predictor,Used as is
+Account_Balance_After_INR,float64,Balance after this transaction,0,Derived,Dropped: = Before -/+ Amount (exact identity)
+Credit_Limit_INR,int64,"Credit limit; populated even without a credit card, exact meaning uncertain",0,Numeric predictor,Used as is; meaning flagged
+Credit_Utilization_Ratio,float64,Share of credit limit used,0,Numeric predictor,Used as is
+Outstanding_Loan_INR,float64,Outstanding loan/borrowing; small non-zero values for no-loan customers (meaning uncertain),0,Numeric predictor,Used as is
+Interest_Rate_Percent,float64,Loan interest rate; 0 if no loan,0,Numeric predictor,Used as is
+EMI_Amount_INR,float64,Monthly EMI; 0 if no loan,0,Numeric predictor,Used in tree models; dropped in LR (VIF)
+Debt_to_Income_Ratio,float64,Debt burden relative to income; capped at 0.95,0,Numeric predictor,Used as is; cap noted
+Transactions_Last_30_Days,int64,Transaction count in last 30 days,0,Numeric predictor,Used as is
+Average_Monthly_Spend_INR,float64,"Average monthly spend, INR",0,Numeric predictor,log1p transform
+Days_Since_Last_Transaction,int64,"Recency, days",0,Numeric predictor,Used as is
+Mobile_App_Logins_Month,int64,Mobile app logins per month,0,Numeric predictor,Used as is
+Internet_Banking_Usage,object,Net-banking usage level,0,Ordinal predictor,"Low=1, Medium=2, High=3"
+Digital_Engagement_Score,float64,Composite digital score (0-100),0,Numeric predictor,Used as is
+Customer_Satisfaction_Score,float64,Satisfaction rating (1-5),0,Numeric predictor,Used as is
+Complaint_Count,int64,Number of complaints,0,Numeric predictor,Used as is
+Device_Type,object,Device used for this transaction,0,Categorical (transaction),EDA only
+Trusted_Device,object,Transaction from trusted device,0,Binary (transaction),EDA only
+Location_Match,object,Transaction location matches profile,0,Binary (fraud feature),Out of scope (fraud)
+Transaction_Time_Risk,object,Risk level of transaction time,0,Categorical (fraud feature),Out of scope (fraud)
+IP_Risk_Score,float64,IP risk score,0,Numeric (fraud feature),Out of scope (fraud)
+Transaction_Velocity_Score,float64,Velocity score,0,Numeric (fraud feature),Out of scope (fraud)
+Unusual_Amount_Score,float64,Unusual amount score,0,Numeric (fraud feature),Out of scope (fraud)
+Fraud_Risk_Score,float64,Composite fraud score,0,Numeric (fraud feature),Out of scope (fraud)
+Fraud_Flag,object,Fraud label (24 Yes),0,Target (not studied),Out of scope: 0.8% positives
+Investment_Value_INR,float64,Value of investments; 0 if no product,0,Numeric predictor,log1p transform
+Portfolio_Return_Percent,float64,Portfolio return %; 0 if no product,0,Numeric predictor,Used as is
+Portfolio_Risk_Score,float64,Portfolio risk; 0 if no product,0,Numeric predictor,Used as is
+Customer_Lifetime_Value_INR,float64,"Bank-computed lifetime value, INR",0,Derived metric,Supplementary target; log1p
+Revenue_Generated_INR,float64,"Revenue from customer, INR",0,Component of target,Excluded as predictor (identity)
+Cost_to_Serve_INR,float64,"Cost of serving customer, INR",0,Component of target,Excluded as predictor (identity)
+Net_Profit_INR,float64,"Revenue minus cost, INR",0,TARGET (regression),Target of Problem B
+Profitability_Score,float64,Score built from revenue/cost (r=0.81 with profit),0,Derived from target,Excluded (leakage)
+Default_Probability,float64,Pre-computed default probability,0,Derived from target,Excluded (leakage: Default=Yes iff >0.45)
+Credit_Risk_Category,object,Band of Default_Probability,0,Derived from target,Excluded (leakage)
+Target_Default,object,Default status,0,TARGET (classification),Yes=1/No=0; target of Problem C
+Churn_Probability,float64,Pre-computed churn probability,0,Derived score,Not used as predictor
+Churn_Risk_Level,object,Band of churn probability,0,Derived score,Not used as predictor
+Target_Churn,object,Churn status - all 'No',0,Invalid target,Excluded: only one class

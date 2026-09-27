@@ -1,0 +1,5 @@
+,EMI_Amount_INR,EMI_Amount_INR,EMI_Amount_INR,Interest_Rate_Percent,Interest_Rate_Percent,Interest_Rate_Percent,Outstanding_Loan_INR,Outstanding_Loan_INR,Outstanding_Loan_INR
+,min,max,mean,min,max,mean,min,max,mean
+Loan_Product,,,,,,,,,
+Loan_Product missing,0.0,0.0,0.0,0.0,0.0,0.0,16.12,99955.09,49252.77
+Loan_Product present,1036.99,242677.89,81939.64,7.5,18.0,12.84,100278.92,9992479.81,4931325.44

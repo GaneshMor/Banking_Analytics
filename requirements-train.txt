@@ -1,0 +1,5 @@
+# Extra dependencies needed only to re-train the models (python train.py)
+-r requirements.txt
+factor_analyzer==0.5.1
+scipy>=1.11
+pytest>=8

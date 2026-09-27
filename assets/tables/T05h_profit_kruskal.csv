@@ -1,0 +1,9 @@
+Variable,Kruskal_H,p_value,Lowest mean profit,Highest mean profit
+Customer_Segment,1.59,0.8102,"Corporate (2,706)","HNI (3,280)"
+Occupation,6.29,0.2792,"Self-Employed (2,928)","Business Owner (3,546)"
+Primary_Account_Type,5.1,0.2776,"Salary (3,054)","Business (3,572)"
+Loan_Product,1.6,0.9015,"Business Loan (2,920)","No Loan (3,298)"
+Transaction_Type,6.33,0.7063,"NEFT (3,010)","RTGS (4,193)"
+State,24.45,0.0036,"Telangana (2,545)","West Bengal (3,888)"
+Bank_Name,15.94,0.0682,"Kotak Mahindra Bank (2,657)","State Bank of India (3,734)"
+Gender,5.68,0.0584,"Female (2,983)","Male (3,387)"

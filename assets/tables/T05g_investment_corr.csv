@@ -1,0 +1,6 @@
+,Investment_Value_INR,Portfolio_Return_Percent,Portfolio_Risk_Score,Annual_Income_INR,Net_Profit_INR
+Investment_Value_INR,1.0,0.013,0.038,0.011,-0.052
+Portfolio_Return_Percent,0.013,1.0,-0.044,0.011,-0.017
+Portfolio_Risk_Score,0.038,-0.044,1.0,-0.011,0.008
+Annual_Income_INR,0.011,0.011,-0.011,1.0,-0.018
+Net_Profit_INR,-0.052,-0.017,0.008,-0.018,1.0

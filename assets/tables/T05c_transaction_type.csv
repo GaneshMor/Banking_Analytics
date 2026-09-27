@@ -1,0 +1,11 @@
+Transaction_Type,Records,Median_Amount,Mean_Net_Profit,Share_%
+UPI Payment,814,4823.0,3124.0,27.1
+Debit Card,357,4194.0,3290.0,11.9
+Credit Card,355,4780.0,3082.0,11.8
+NEFT,304,4342.0,3010.0,10.1
+IMPS,303,5045.0,3144.0,10.1
+Bill Payment,250,4602.0,3078.0,8.3
+Loan EMI,188,4277.0,3012.0,6.3
+Cash Withdrawal,183,4421.0,3399.0,6.1
+RTGS,126,4480.0,4193.0,4.2
+Investment,120,5132.0,3184.0,4.0

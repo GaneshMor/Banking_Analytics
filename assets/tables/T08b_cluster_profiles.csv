@@ -1,0 +1,5 @@
+Segment_Name,Size,Loan_Holders_pct,Investors_pct,F_Credit_Burden,F_Investment_Depth,Age,Median_Income_INR,Credit_Score,Debt_to_Income,Median_EMI_INR,Median_Investment_INR,Txns_30d,Digital_Score,Satisfaction,Tenure_Months,Mean_Net_Profit_INR,Loss_Making_pct,Median_CLV_INR,Default_Rate_pct
+Transactional-only,890,22.58,2.02,-0.85,-0.85,48.26,871989.0,721.7,0.21,0.0,0.0,22.07,68.16,4.05,122.72,3417.63,27.3,1039962.16,1.12
+Debt-free Investors,670,20.45,100.0,-0.9,1.09,48.2,919137.5,721.22,0.2,0.0,2613337.14,21.94,67.54,4.09,125.26,3122.52,29.1,1116433.68,1.19
+Pure Borrowers,835,100.0,2.51,0.96,-0.78,47.75,803339.0,716.75,0.86,89122.58,0.0,21.86,68.53,4.04,118.04,3207.44,28.26,920749.4,39.4
+Leveraged Investors,605,100.0,100.0,0.92,1.11,46.67,787365.0,726.77,0.87,87783.91,2668188.61,22.09,67.52,4.05,118.37,2868.13,32.89,983398.78,40.66

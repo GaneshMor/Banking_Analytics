@@ -1,0 +1,77 @@
+{
+  "trained_on": "bank_data_clean.csv",
+  "n_records": 3000,
+  "n_train": 2249,
+  "n_test": 751,
+  "split": "GroupShuffleSplit 75/25 grouped by Customer_ID, random_state=42",
+  "tree_feature_columns": [
+    "Credit_Score",
+    "Credit_Utilization_Ratio",
+    "Credit_Limit_INR",
+    "Outstanding_Loan_INR",
+    "Interest_Rate_Percent",
+    "EMI_Amount_INR",
+    "Debt_to_Income_Ratio",
+    "Annual_Income_INR",
+    "Account_Balance_Before_INR",
+    "Customer_Tenure_Months",
+    "Transactions_Last_30_Days",
+    "Average_Monthly_Spend_INR",
+    "Days_Since_Last_Transaction",
+    "Age",
+    "Loan_Business Loan",
+    "Loan_Education Loan",
+    "Loan_Home Loan",
+    "Loan_Personal Loan",
+    "Loan_Vehicle Loan",
+    "Prim_Business",
+    "Prim_Current",
+    "Prim_NRI",
+    "Prim_Salary",
+    "Occu_Business Owner",
+    "Occu_Professional",
+    "Occu_Retired",
+    "Occu_Self-Employed",
+    "Occu_Student",
+    "Cust_Corporate",
+    "Cust_HNI",
+    "Cust_Mass Affluent",
+    "Cust_SME"
+  ],
+  "rf_threshold": 0.5,
+  "rf_best_params": {
+    "max_depth": 12,
+    "max_features": 0.5,
+    "min_samples_leaf": 5
+  },
+  "dt_best_params": {
+    "max_depth": 6,
+    "min_samples_leaf": 50
+  },
+  "rf_test_metrics": {
+    "Accuracy": 0.8628,
+    "Precision": 0.5989,
+    "Recall": 0.8,
+    "F1": 0.685,
+    "ROC_AUC": 0.9361
+  },
+  "dt_test_metrics": {
+    "Accuracy": 0.8043,
+    "Precision": 0.4867,
+    "Recall": 0.9143,
+    "F1": 0.6352,
+    "ROC_AUC": 0.9226
+  },
+  "rf_cv_auc": 0.9347,
+  "dt_cv_auc": 0.924,
+  "root_rule": {
+    "feature": "Debt_to_Income_Ratio",
+    "threshold": 0.7325000166893005
+  },
+  "segmentation": {
+    "k": 4,
+    "silhouette": 0.6196,
+    "agreement_with_notebook": 1.0
+  },
+  "sklearn_version": "1.8.0"
+}

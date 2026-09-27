@@ -1,0 +1,8 @@
+# Runtime dependencies for the Streamlit app (Python 3.11 - 3.13)
+# scikit-learn is pinned to the exact version the models were trained with (pickle compatibility).
+streamlit==1.64.0
+scikit-learn==1.8.0
+pandas==3.0.2
+numpy==2.4.4
+joblib==1.5.3
+plotly==7.1.0

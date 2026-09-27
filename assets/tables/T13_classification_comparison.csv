@@ -1,0 +1,4 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC,CV ROC-AUC (train folds)
+Logistic Regression,0.8242,0.5163,0.9071,0.658,0.9301,0.9336
+Decision Tree,0.8043,0.4867,0.9143,0.6352,0.9226,0.924
+Random Forest,0.8628,0.5989,0.8,0.685,0.9361,0.9347

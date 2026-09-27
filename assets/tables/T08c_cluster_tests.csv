@@ -1,0 +1,6 @@
+Test,Statistic,p_value
+Net profit (Kruskal-Wallis),5.7725,0.1232
+Default rate (Chi-square),710.2888,0.0
+Digital score (Kruskal-Wallis),1.7288,0.6305
+Income (Kruskal-Wallis),21.9027,0.0001
+CLV (Kruskal-Wallis),10.3835,0.0156

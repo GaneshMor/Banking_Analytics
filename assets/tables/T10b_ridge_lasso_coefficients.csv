@@ -1,0 +1,26 @@
+,OLS (std.),Ridge (std.),Lasso (std.),Lasso retained
+Seg_Retail,428.73,36.79,25.62,Yes
+Complaint_Count,-350.58,-103.41,-260.98,Yes
+Seg_Mass Affluent,307.55,8.45,0.0,No
+EMI_Amount_INR,-208.37,-58.4,-123.98,Yes
+Transactions_Last_30_Days,198.3,57.17,97.36,Yes
+Seg_HNI,197.91,5.1,0.0,No
+log_Investment_Value_INR,-190.99,-46.81,-62.79,Yes
+Digital_Engagement_Score,184.15,54.38,86.51,Yes
+Seg_SME,178.98,-20.35,-0.0,No
+Credit_Score,-128.69,-38.43,-33.97,Yes
+Has_Credit_Card_bin,-79.87,-24.29,-0.0,No
+Customer_Satisfaction_Score,-48.88,-14.36,-0.0,No
+Age,-44.29,-8.9,-0.0,No
+Portfolio_Return_Percent,42.09,-5.04,-0.0,No
+log_Annual_Income_INR,-41.57,-13.27,-0.0,No
+Interest_Rate_Percent,-39.07,-38.79,-0.0,No
+Has_Insurance_bin,-29.46,-6.23,-0.0,No
+Mobile_App_Logins_Month,-25.96,-2.99,-0.0,No
+Account_Balance_Before_INR,25.81,7.13,0.0,No
+Credit_Utilization_Ratio,23.98,9.31,0.0,No
+Days_Since_Last_Transaction,-20.57,-9.13,-0.0,No
+IB_Usage_Ord,16.82,1.17,0.0,No
+Credit_Limit_INR,-16.51,-5.66,-0.0,No
+log_Average_Monthly_Spend_INR,12.78,6.58,0.0,No
+Customer_Tenure_Months,0.74,-3.36,-0.0,No

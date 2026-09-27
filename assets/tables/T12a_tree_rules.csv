@@ -1,0 +1,20 @@
+Rule,Train records,Train default rate %
+"Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score <= 675.500 AND Credit_Utilization_Ratio > 0.317 AND Average_Monthly_Spend_INR > 53,141.791",57,100.0
+"Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score <= 675.500 AND Credit_Utilization_Ratio > 0.317 AND Average_Monthly_Spend_INR <= 53,141.791",50,92.0
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score > 675.500 AND Credit_Utilization_Ratio > 0.484,66,81.8
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score <= 675.500 AND Credit_Utilization_Ratio <= 0.317,69,78.3
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio <= 0.195 AND Credit_Score <= 657.500,71,62.0
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score > 675.500 AND Credit_Utilization_Ratio <= 0.484 AND Debt_to_Income_Ratio > 0.927 AND Credit_Utilization_Ratio > 0.285,170,52.9
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score > 675.500 AND Credit_Utilization_Ratio <= 0.484 AND Debt_to_Income_Ratio > 0.927 AND Credit_Utilization_Ratio <= 0.285,102,33.3
+"Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio <= 0.195 AND Credit_Score > 657.500 AND Credit_Utilization_Ratio > 0.123 AND EMI_Amount_INR > 96,988.031",69,31.9
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio > 0.514 AND Credit_Utilization_Ratio > 0.352,52,28.8
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio > 0.195 AND Credit_Score > 675.500 AND Credit_Utilization_Ratio <= 0.484 AND Debt_to_Income_Ratio <= 0.927,54,20.4
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio <= 0.195 AND Credit_Score > 657.500 AND Credit_Utilization_Ratio <= 0.123 AND Customer_Tenure_Months > 121.500,58,12.1
+"Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio <= 0.195 AND Credit_Score > 657.500 AND Credit_Utilization_Ratio > 0.123 AND EMI_Amount_INR <= 96,988.031",62,11.3
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio <= 0.514 AND Credit_Score <= 621.500 AND Credit_Utilization_Ratio > 0.287,62,9.7
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio > 0.514 AND Credit_Utilization_Ratio <= 0.352 AND Debt_to_Income_Ratio > 0.627,50,6.0
+Debt_to_Income_Ratio > 0.733 AND Credit_Utilization_Ratio <= 0.195 AND Credit_Score > 657.500 AND Credit_Utilization_Ratio <= 0.123 AND Customer_Tenure_Months <= 121.500,57,3.5
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio <= 0.514 AND Credit_Score > 621.500 AND Customer_Tenure_Months <= 13.500,50,2.0
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio <= 0.514 AND Credit_Score <= 621.500 AND Credit_Utilization_Ratio <= 0.287,84,0.0
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio > 0.514 AND Credit_Utilization_Ratio <= 0.352 AND Debt_to_Income_Ratio <= 0.627,66,0.0
+Debt_to_Income_Ratio <= 0.733 AND Debt_to_Income_Ratio <= 0.514 AND Credit_Score > 621.500 AND Customer_Tenure_Months > 13.500,1000,0.0

@@ -1,0 +1,5 @@
+Policy,Records flagged,Share of test records %,Defaults captured,Share of all defaults captured %,Default rate among flagged %,Non-defaulters flagged,Outstanding of captured defaulters (INR Cr),Share of defaulter outstanding captured %
+Tree root rule: Debt_to_Income_Ratio > 0.733,286,38.08,131,93.57,45.8,155,79.96,97.75
+Decision tree (threshold 0.5),263,35.02,128,91.43,48.67,135,78.32,95.75
+Random forest (threshold 0.5),187,24.9,112,80.0,59.89,75,70.09,85.68
+"Random forest (threshold 0.7, stricter)",116,15.45,81,57.86,69.83,35,51.98,63.54

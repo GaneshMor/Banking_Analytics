@@ -1,0 +1,17 @@
+Variable,Median_NonDefault,Median_Default,MannWhitney_p,Significant_5%
+Credit_Score,728.0,679.0,0.0,Yes
+Credit_Utilization_Ratio,0.25,0.35,0.0,Yes
+Credit_Limit_INR,1257915.0,1296858.0,0.7868,No
+Outstanding_Loan_INR,98907.16,6156175.35,0.0,Yes
+Interest_Rate_Percent,0.0,12.37,0.0,Yes
+EMI_Amount_INR,0.0,94789.0,0.0,Yes
+Debt_to_Income_Ratio,0.275,0.95,0.0,Yes
+Annual_Income_INR,891293.0,696139.0,0.0,Yes
+Account_Balance_Before_INR,1222964.7,1218417.62,0.7091,No
+Customer_Tenure_Months,121.0,119.0,0.4595,No
+Transactions_Last_30_Days,22.0,22.0,0.8827,No
+Average_Monthly_Spend_INR,65974.23,65204.23,0.8253,No
+Days_Since_Last_Transaction,91.0,86.0,0.3114,No
+Age,48.0,46.0,0.5392,No
+Digital_Engagement_Score,68.3,68.0,0.9209,No
+Customer_Satisfaction_Score,4.1,4.0,0.0955,No

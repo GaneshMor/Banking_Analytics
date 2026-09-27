@@ -1,0 +1,3 @@
+,Coefficient,p_value,Interpretation
+log_Annual_Income_INR,0.9912,0.0,Elasticity: +1% in variable -> ~0.99% change in CLV
+log_Average_Monthly_Spend_INR,0.0255,0.0222,Elasticity: +1% in variable -> ~0.03% change in CLV

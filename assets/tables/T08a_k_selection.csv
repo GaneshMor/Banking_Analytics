@@ -1,0 +1,6 @@
+k,Within-cluster SS (factor scores),Silhouette (factor scores),"Silhouette (factors + income, digital, credit score)",Cluster sizes
+2,3306.3,0.47,0.191,"[1726, 1274]"
+3,1815.6,0.528,0.175,"[1144, 958, 898]"
+4,834.7,0.62,0.184,"[890, 835, 670, 605]"
+5,649.9,0.599,0.177,"[751, 669, 602, 510, 468]"
+6,513.7,0.572,0.173,"[745, 570, 515, 466, 389, 315]"

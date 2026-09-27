@@ -1,0 +1,7 @@
+,Mobile_App_Logins_Month,IB_Usage_Ord,Digital_Engagement_Score,Customer_Satisfaction_Score,Net_Profit_INR,Churn_Probability
+Mobile_App_Logins_Month,1.0,0.019,0.011,0.016,-0.009,0.001
+IB_Usage_Ord,0.019,1.0,0.021,-0.003,-0.008,-0.014
+Digital_Engagement_Score,0.011,0.021,1.0,0.009,0.04,-0.39
+Customer_Satisfaction_Score,0.016,-0.003,0.009,1.0,-0.002,-0.0
+Net_Profit_INR,-0.009,-0.008,0.04,-0.002,1.0,-0.07
+Churn_Probability,0.001,-0.014,-0.39,-0.0,-0.07,1.0
